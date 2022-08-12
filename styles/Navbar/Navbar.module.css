@@ -1,0 +1,26 @@
+.line:hover::before{
+   content: '';
+   background-color: black;
+   position: absolute;
+   bottom: 5px;
+   height: 1px;
+   width: 80%;
+   animation: line .5s;
+}
+@keyframes line{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 80%;
+    }
+}
+.logo{
+    cursor: pointer;
+    width: 13rem;
+}
+@media screen and (max-width:768px) {
+    .logo{
+        width: 8rem;
+    }
+}

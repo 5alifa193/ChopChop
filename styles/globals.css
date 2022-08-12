@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+html,
+*{
+  font-family: 'Francois One', sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+.main-bg{
+  background-color: #e8f1ea;
+}
+.footer-bg{
+  background-color: #b3ccb9;
+}
+.subscribe:hover{
+  transition: .5s;
+  color: white !important;
+}
+.min-height{
+  min-height: 100vh;
+}

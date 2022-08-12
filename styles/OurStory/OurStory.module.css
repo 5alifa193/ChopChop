@@ -1,0 +1,48 @@
+
+.header{
+    color: #B90A6E;
+    font-size: calc(.5rem + (5vw));
+}
+.text{
+    font-size: calc(.5rem + 2vw);
+}
+.mission{
+    background-color: #909591;
+    text-align: center;
+}
+.head{
+    font-size: calc(.5rem + 2vw);
+    color: white;
+}
+.textt{
+    font-size: calc((5vw));
+    color: white;
+}
+.team{
+    color: #7ebe51;
+    font-size: calc(.5rem + (5vw));
+}
+.icon{
+    left: -20px;
+}
+@media screen and (max-width:576px){
+    .frame{
+        width: 300px;
+        height: 175px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px){
+    .frame{
+        width: 500px;
+        height: 290px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1200px){
+    .frame{
+        width: 720px;
+        height: 420px;
+    }
+}
+.listItem{
+    font-size: 16px;
+}

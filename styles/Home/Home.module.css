@@ -1,0 +1,46 @@
+/* back to it later */
+/* .animate{
+
+  background-color: none;
+
+}
+@keyframes upDown{
+  from{
+    filter: hue-rotate(0deg);
+  }
+  to{
+    filter: hue-rotate(180deg);
+  }
+} */
+.myButton{
+  width: 50px;
+  height: 50px;
+  border: 1px solid #b3ccb9;
+  border-radius: 50%;
+  border-left: none;
+}
+.myButton:hover{
+  transition: 1s;
+  border-color: black;
+}
+.animate{
+  position: relative;
+  transition: 1s;
+  
+}
+.animate:hover{
+  animation: move .7s infinite alternate;
+}
+@keyframes move{
+  0%{
+    bottom: -5px;
+  }
+  100%{
+    bottom: 5px;
+  }
+}
+.header{
+  font-size: 4rem;
+  color: #B90A6E;
+}
+
